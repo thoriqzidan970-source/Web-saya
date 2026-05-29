@@ -1,2 +1,1 @@
-# Web-saya
-Buat senang senang saja
+AMBON DEPO SAMPE MATI
