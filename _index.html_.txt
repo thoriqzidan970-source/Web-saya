@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Form</title>
+        <link rel="icon" href="img/favicon.ico">
+        <style>
+            body { font-family: Arial, sans-serif; }
+            form { max-width: 300px; margin: 20px; }
+            label { display: block; margin-top: 10px; }
+            input[type="text"], input[type="password"] { 
+                width: 100%; 
+                padding: 8px; 
+                margin-top: 5px; 
+            }
+            .marquee { 
+                background-color: #ff001f; 
+                color: white; 
+                padding: 10px; 
+                animation: scroll 10s linear infinite;
+            }
+            @keyframes scroll {
+                0% { transform: translateX(100%); }
+                100% { transform: translateX(-100%); }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>WELCOME 999</h1>
+        
+        <form method="POST" action="login.php">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="Nama" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="sandi" required>
+            
+            <input type="submit" value="LOGIN">
+        </form>
+
+        <div class="marquee">CLICK LINK GACOR 999 #JAPAR NGEDEPO</div>
+        <img src="img/placeholder.png" alt="Login banner">
+    </body>
+</html>
